@@ -92,12 +92,10 @@ export class CarrinhoPage implements OnInit {
     this.router.navigate(['/view-modal-promocoes', { 'promocao': promocao.id }]);
   }
  
-  ViewPratoVegano(pratovegano: PratoVegano) {
+  viewPratoVegano (pratovegano: PratoVegano){
     
-    this.router.navigate(['/view-modal-vegano', { 'pratovegano': pratovegano.id }]);
-
-
-}
+    this.router.navigate(['/view-modal-vegano',{'pratovegano':pratovegano.id}]);
+  }
 
 ViewPratoVegetariano(pratovegetariano: PratoVegetariano) {
     

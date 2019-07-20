@@ -43,9 +43,9 @@ export class PerfilPage implements OnInit {
         console.log(this.perfil);
 
 
-      }).catch(err => {
-        console.log("ERRO: " + err)
-      });
+     // }).catch(err => {
+        //console.log("ERRO: " + err)
+      })
 
     });
   }
